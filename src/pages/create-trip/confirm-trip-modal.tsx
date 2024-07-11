@@ -45,8 +45,6 @@ export function ConfirmTripModal({
             <User className="text-zinc-400 size-5" />
 
             <input
-              type="email"
-              name="email"
               placeholder="Seu nome completo"
               className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1"
               onChange={(e) => setOwnerName(e.target.value)}
